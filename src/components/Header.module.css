@@ -1,0 +1,23 @@
+.container{
+	box-shadow: 1px 1px 9px 1px grey;
+	padding: 15px;
+	margin: 15px;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+	vertical-align: top;
+}
+.row > img{
+	align-self: center;
+}
+
+.up{
+	color: green;
+	margin: auto 15px auto 15px;
+}
+.down{
+	color: red;
+	margin: auto 15px auto 15px;
+}

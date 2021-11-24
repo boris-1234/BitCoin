@@ -1,0 +1,11 @@
+.row{
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	padding: 15px;;
+}
+
+.row > div{
+	cursor: pointer;
+	padding-bottom: 15px;
+}

@@ -1,0 +1,18 @@
+.App {
+  margin: 15px;
+}
+div > h3{
+  cursor: pointer;
+  margin: 0;
+  padding: 15px;
+
+}
+
+.row{
+	display: flex;
+	justify-content: flex-start;
+  
+  border-bottom: 1px solid #8f8f8f;
+  margin-left: 15px;
+  margin-right: 15px;
+}

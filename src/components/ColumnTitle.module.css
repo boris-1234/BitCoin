@@ -1,0 +1,49 @@
+.row{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.row > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 5px;
+}
+
+.row > div > div{
+	cursor: pointer;
+}
+
+.arrowUp {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid grey;
+}	
+.arrowUpSelected{
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid black;
+}	
+
+.arrowDown {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-top: 5px solid grey;
+}	
+.arrowDownSelected {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-top: 5px solid black;
+}	

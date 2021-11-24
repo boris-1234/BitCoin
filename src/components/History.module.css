@@ -1,0 +1,25 @@
+.history{
+
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.history thead{
+	box-shadow: 1px 1px 2px 1px grey;
+	padding: 15px;
+	margin: 15px;
+	background-color: rgb(241, 239, 239);
+}
+.history th{
+	padding: 2px;
+}
+.history table{
+	border-collapse: collapse;
+}
+.history tr{
+	border-bottom: 1px solid #8f8f8f;
+}
+
+.history td{
+	padding: 10px;
+}
